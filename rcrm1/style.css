@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2d89ef;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #2d89ef;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+.settings-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.settings-section h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.settings-section p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
+.settings-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d89ef;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.settings-section button:hover {
+    background-color: #1e5fb8;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer .save-button {
+    background-color: #2d89ef;
+    color: white;
+}
+
+footer .save-button:hover {
+    background-color: #1e5fb8;
+}
+
+footer .reset-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+footer .reset-button:hover {
+    background-color: #aaa;
+}
